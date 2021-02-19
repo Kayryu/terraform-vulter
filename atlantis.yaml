@@ -1,0 +1,7 @@
+projects:
+    - name: instance1
+        dir: services/instance1
+        workflow: service
+        autoplan:
+        when_modified: ["modules/**/*.tf","*.tf"]
+        enabled: true
